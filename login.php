@@ -3,7 +3,7 @@
    $_SESSION['Authenticated'] = false;
  
    $DATABASE_HOST = "localhost";
-   $DATABASE_NAME = "hw2";
+   $DATABASE_NAME = "food_ordering";
    $DATABASE_USER = "root";
    $DATABASE_PASS = "";
  

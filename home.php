@@ -8,7 +8,7 @@ exit();
 $DATABASE_HOST = "localhost";
 $DATABASE_USER = "root";
 $DATABASE_PASS = "";
-$DATABASE_NAME = "hw2";
+$DATABASE_NAME = "food_ordering";
 $storename = "effww";
 $conn = new PDO("mysql:host=$DATABASE_HOST; dbname=$DATABASE_NAME;", $DATABASE_USER, $DATABASE_PASS);
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -281,7 +281,7 @@ if(isset($_GET['pid']) && isset($_GET['price']) && isset($_GET['amount'])){
               $dbservername = 'localhost';
               $dbusername ='root';
               $dbpassword = '';
-              $dbname = 'hw2';  
+              $dbname = 'food_ordering';  
               $shopresult = empty($_SESSION['shoplist'])?array():$_SESSION['shoplist'];
               $categoryresult = empty($_SESSION['categorylist'])?array():$_SESSION['categorylist'];
               $distanceresult = empty($_SESSION['distancelist'])?array():$_SESSION['distancelist'];
@@ -604,7 +604,7 @@ if(isset($_GET['pid']) && isset($_GET['price']) && isset($_GET['amount'])){
           <tbody>
           <?php
 $dbservername = 'localhost';
-$dbname = 'hw2';
+$dbname = 'food_ordering';
 $dbusername = 'root';
 $dbpassword = '';
 $conn = new PDO("mysql:host=$dbservername; dbname=$dbname;", $dbusername, $dbpassword);
