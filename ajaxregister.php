@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json; charset=UTF-8');
 $dbservername = 'localhost';
-$dbname = 'hw2';
+$dbname = 'food_ordering';
 $dbusername = 'root';
 $dbpassword = '';
 if ($_SERVER['REQUEST_METHOD'] == "POST") {

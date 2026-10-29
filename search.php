@@ -2,7 +2,7 @@
     session_start();
     $_SESSION['search'] = FALSE;
     $dbservername = 'localhost';
-    $dbname = 'hw2';
+    $dbname = 'food_ordering';
     $dbusername = 'root';
     $dbpassword = '';
     $conn = new PDO("mysql:host=$dbservername; dbname=$dbname;", $dbusername, $dbpassword);
